@@ -64,4 +64,5 @@ This collection is used as source for typeahead to autofill the input when typin
 
 ## Internal dependencies / credits
 [ajduke:bootstrap-tagsinput](https://atmospherejs.com/ajduke/bootstrap-tagsinput) 
+
 [mrt:bootstrap3-typeahead](https://atmospherejs.com/mrt/bootstrap3-typeahead) 

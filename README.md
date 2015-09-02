@@ -30,6 +30,7 @@ Let's say that you fill in 3 tags:
 
 ```
 Amsterdam, Hamburg, Boston
+```
 
 ### Above results in the following mongo record
 

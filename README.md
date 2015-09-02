@@ -32,7 +32,7 @@ Let's say that you fill in 3 tags:
 Amsterdam, Hamburg, Boston
 
 ### Above results in the following mongo record
-```
+```json
 {
     "tags": {
         "Amsterdam",
@@ -41,9 +41,11 @@ Amsterdam, Hamburg, Boston
     }
 }
 ```
+
 ### And a separate Collection called cloudspider_tags
+
 This collection is used as source for typeahead to autofill the input when typing
-```
+```json
 {
     "name": "amsterdam",
     "title": "Amsterdam"

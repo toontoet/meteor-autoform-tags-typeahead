@@ -1,6 +1,6 @@
 Package.describe({
     name: 'cloudspider:autoform-tags-typeahead',
-    version: '0.7.0',
+    version: '0.7.1',
     summary: 'Provides a autoform tags input with typeahead functionality',
     git: 'https://github.com/Redroest/meteor-autoform-tags-typeahead',
     documentation: 'README.md'

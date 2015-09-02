@@ -7,9 +7,16 @@ if(Meteor.isClient) {
 
 
 if(Meteor.isServer) {
+    CloudspiderTags.allow({
+        insert: function () {
+            return true;
+        }
+    });
+
     Meteor.publish('cloudspider_tags', function() {
         return CloudspiderTags.find({});
     });
+
 }
 
 
@@ -21,7 +28,7 @@ TagsUtil = {
         var tag = CloudspiderTags.findOne({
             name: name
         });
-
+console.log(tag);
         if(tag) {
             return tag;
         }

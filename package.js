@@ -14,7 +14,7 @@ Package.onUse(function (api) {
         'aldeed:collection2-core@2.1.0',
         'aldeed:autoform@6.0.0',
         'ajduke:bootstrap-tagsinput@0.7.0',
-        'mrt:bootstrap3-typeahead@0.1.1',
+        'mrt:bootstrap3-typeahead',
         'templating'
     ]);
 

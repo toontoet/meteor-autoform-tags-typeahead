@@ -1,3 +1,20 @@
 .bootstrap-tagsinput {
     width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+}
+
+/* Keep the typed text visible; default size=1 input is too narrow and the
+   typeahead menu (positioned inside this container) can cover the first glyph. */
+.bootstrap-tagsinput > input {
+    min-width: 8em !important;
+    max-width: 100%;
+    padding: 0 6px !important;
+    margin: 0 !important;
+}
+
+.bootstrap-tagsinput > .typeahead.dropdown-menu {
+    /* JS sets top/left relative to this position:relative container */
+    z-index: 1050;
 }
